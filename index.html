@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ИТ УЛУКИНТЕРНЕШЕНЛ - IT решения для вашего бизнеса</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-content">
+                <a href="index.html" class="logo">ИТ УЛУКИНТЕРНЕШЕНЛ</a>
+                <div class="nav-links">
+                    <a href="index.html" class="active">Главная</a>
+                    <a href="services.html">Услуги</a>
+                    <a href="cases.html">Кейсы</a>
+                    <a href="about.html">О нас</a>
+                    <a href="contact.html">Контакты</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 id="hero-tagline">Технологии, которые работают на ваш бизнес</h1>
+                <p id="hero-subtitle">Разрабатываем IT-решения, которые помогают компаниям расти и достигать целей</p>
+                <a href="contact.html" class="btn-primary" id="hero-cta">Начать проект</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="services-preview">
+        <div class="container">
+            <h2>Наши услуги</h2>
+            <div class="services-grid" id="services-grid"></div>
+            <div class="section-cta">
+                <a href="services.html" class="btn-secondary">Все услуги</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2>Отзывы клиентов</h2>
+            <div class="testimonials-grid" id="testimonials-grid"></div>
+        </div>
+    </section>
+
+    <section class="faq">
+        <div class="container">
+            <h2>Часто задаваемые вопросы</h2>
+            <div class="faq-list" id="faq-list"></div>
+        </div>
+    </section>
+
+    <section class="contact-form-section">
+        <div class="container">
+            <div class="form-wrapper">
+                <h2>Оставить заявку</h2>
+                <p>Заполните форму, и мы свяжемся с вами в ближайшее время</p>
+                <form id="lead-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Имя *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Телефон *</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Услуга</label>
+                        <select id="service" name="service">
+                            <option value="">Выберите услугу</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="channel">Удобный способ связи *</label>
+                        <select id="channel" name="channel" required>
+                            <option value="phone">Телефон</option>
+                            <option value="whatsapp">WhatsApp</option>
+                            <option value="telegram">Telegram</option>
+                            <option value="email">Email</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="comment">Комментарий</label>
+                        <textarea id="comment" name="comment" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Отправить заявку</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ИТ УЛУКИНТЕРНЕШЕНЛ</h3>
+                    <p>Современные IT-решения для вашего бизнеса</p>
+                </div>
+                <div class="footer-section" id="footer-contacts">
+                    <h3>Контакты</h3>
+                </div>
+                <div class="footer-section">
+                    <h3>Навигация</h3>
+                    <a href="services.html">Услуги</a>
+                    <a href="cases.html">Кейсы</a>
+                    <a href="about.html">О нас</a>
+                    <a href="contact.html">Контакты</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 ИТ УЛУКИНТЕРНЕШЕНЛ. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div id="toast" class="toast"></div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
